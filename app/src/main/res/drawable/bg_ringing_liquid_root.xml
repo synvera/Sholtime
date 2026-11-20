@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dasar malam lembut (deep slate-teal) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:centerColor="#13222F"
+                android:endColor="#0D1722"
+                android:startColor="#172E36"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Aura cahaya hangat di bagian atas -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.24"
+                android:endColor="#0034D399"
+                android:gradientRadius="260dp"
+                android:startColor="#3334D399"
+                android:type="radial" />
+        </shape>
+    </item>
+
+    <!-- Aura cahaya lembut di bagian bawah (area sentuh) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.88"
+                android:endColor="#006EE7B7"
+                android:gradientRadius="200dp"
+                android:startColor="#226EE7B7"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>

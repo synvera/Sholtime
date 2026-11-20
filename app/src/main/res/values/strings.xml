@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sholtime</string>
+    <string name="widget_jadwal_desc">Menampilkan jadwal 5 waktu sholat harian secara langsung</string>
+    <string name="widget_small_desc">Hitung mundur waktu sholat berikutnya dengan jam analog &amp; digital</string>
+</resources>

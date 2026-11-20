@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Lapisan dasar kaca buram transparan -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:endColor="#590F172A"
+                android:startColor="#8C1E293B"
+                android:type="linear" />
+            <corners android:radius="26dp" />
+        </shape>
+    </item>
+
+    <!-- Lapisan kilau cahaya (specular highlight) & bingkai kaca -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="#08FFFFFF"
+                android:endColor="#1A10B981"
+                android:startColor="#33FFFFFF"
+                android:type="linear" />
+            <corners android:radius="26dp" />
+            <stroke
+                android:width="1.2dp"
+                android:color="#4DFFFFFF" />
+        </shape>
+    </item>
+</layer-list>
